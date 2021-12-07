@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "projects": {
-    "c-react-test": "apps/c-react-test",
-    "c-react-test-e2e": "apps/c-react-test-e2e"
-  }
-}
