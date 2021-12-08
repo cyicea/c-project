@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Message } from '@cyicea-workspace/api-interfaces';
 
 export const App = () => {
-  const [m, setMessage] = useState<Message>({ message: '牛逼666！' });
+  const [m, setMessage] = useState<Message>({ message: '' });
 
   useEffect(() => {
     fetch('/api')
